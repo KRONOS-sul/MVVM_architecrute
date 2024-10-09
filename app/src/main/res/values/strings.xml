@@ -2,4 +2,18 @@
     <string name="app_name">MVVM architecrute</string>
     <string name="plus">+</string>
     <string name="minus">-</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="love_calculator">Love Calculator</string>
+    <string name="first_name">First Name</string>
+    <string name="second_name">Second Name</string>
+    <string name="you">You</string>
+    <string name="calculate">Calculate</string>
+    <string name="home">Home</string>
+    <string name="history">History</string>
+    <string name="your_score">Your Score</string>
+    <string name="_100">100%</string>
+    <string name="try_again">Try Again</string>
+    <string name="arrow_right"><![CDATA[>]]></string>
+    <string name="skip">Skip</string>
+    <string name="get_started">Get Started</string>
 </resources>

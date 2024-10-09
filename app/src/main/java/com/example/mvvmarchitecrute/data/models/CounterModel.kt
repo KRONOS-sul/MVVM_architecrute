@@ -1,8 +1,10 @@
 package com.example.mvvmarchitecrute.data.models
 
-class CounterModel {
+import javax.inject.Inject
 
-    var count = 1
+class CounterModel @Inject constructor(){
+
+    var count = 0
 
     fun increment() {
         ++count

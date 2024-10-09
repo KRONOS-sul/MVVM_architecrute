@@ -1,13 +1,14 @@
-package com.example.mvvmarchitecrute.data
+package com.example.mvvmarchitecrute.data.viewModels
 
 import android.graphics.Color
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.example.mvvmarchitecrute.data.models.CounterModel
+import dagger.hilt.android.lifecycle.HiltViewModel
+import javax.inject.Inject
 
-class MainViewModel : ViewModel() {
-
-    private var model = CounterModel()
+@HiltViewModel
+class MainViewModel @Inject constructor(private val model: CounterModel) : ViewModel() {
 
     val counterData = MutableLiveData<Int>()        // Значение count
     val counterColorData = MutableLiveData<Int>()   // Цвет count
